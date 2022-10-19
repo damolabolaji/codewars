@@ -1,15 +1,5 @@
 
 
-//Create Phone Number
-
-function createPhoneNumber(numbers){
-    var format = "(xxx) xxx-xxxx";
-    
-    numbers.forEach(item => format = format.replace('x',item))
-    
-    console.log(format) ;
-  }
-  createPhoneNumber([5,7,8,9,0,7,4,8,9,0])
 
 
 //Bit Count 6kyu
