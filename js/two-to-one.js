@@ -13,3 +13,7 @@ function longest(s1, s2) {
 
 
   longest(str1,str2)
+
+//OR 
+const longest = (s1, s2) => [...new Set(s1+s2)].sort().join('')
+//...new Set(array) filters out duplicates automatically
