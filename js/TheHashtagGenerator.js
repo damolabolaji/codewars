@@ -14,7 +14,8 @@
 
 function generateHashtag (str) {
   
-  if (typeof str === 'string' && str.trim().length === 0){
+  if (typeof str === 'string' && str.trim().length === 0){ //takes out any space character before and after actual characters e.g "   Hello  Peeps" --> "Hello  Peeps"
+    //trim() ensure that if there was a string "   ", .length value will always be zero.
     return false;
   }
   
